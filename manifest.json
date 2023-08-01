@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Simple TODO",
+  "version": "1.0",
+  "action": {
+    "default_popup": "main.html"
+  },
+  "permissions": ["tabs"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "lib/party.js",
+        "lib/http_cdn.jsdelivr.net_npm_bootstrap@5.1.3_dist_js_bootstrap.bundle.js",
+        "script.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "img/icons8-todoist-50.png",
+    "48": "img/icons8-todoist-50.png",
+    "128": "img/icons8-todoist-50.png"
+  }
+}
+
