@@ -96,3 +96,14 @@
     }
 }
 
+@keyframes smaller {
+    0% {
+        opacity: 1;
+        transform: scale(100%);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0%);
+    }
+}
+
