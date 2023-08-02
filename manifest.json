@@ -6,6 +6,7 @@
     "default_popup": "main.html"
   },
   "permissions": ["tabs"],
+  "description": "A simple TODO list hat will help you get track of your daily tasks",
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
