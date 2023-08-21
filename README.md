@@ -2,4 +2,4 @@
 
 A simple TODO list to manage your daily tasks (chrome extension)
 
-![Alt text](example.png)
+![Alt text](img/example.png)
